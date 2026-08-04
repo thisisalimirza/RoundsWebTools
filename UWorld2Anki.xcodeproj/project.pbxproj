@@ -1,0 +1,633 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A30D2F2930227F1A00C06824 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30D2F2830227F1A00C06824 /* AppDelegate.swift */; };
+		A30D2F2D30227F1A00C06824 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = A30D2F2B30227F1A00C06824 /* Main.html */; };
+		A30D2F2F30227F1A00C06824 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A30D2F2E30227F1A00C06824 /* Icon.png */; };
+		A30D2F3130227F1A00C06824 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = A30D2F3030227F1A00C06824 /* Style.css */; };
+		A30D2F3330227F1A00C06824 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = A30D2F3230227F1A00C06824 /* Script.js */; };
+		A30D2F3530227F1A00C06824 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30D2F3430227F1A00C06824 /* ViewController.swift */; };
+		A30D2F3830227F1A00C06824 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A30D2F3630227F1A00C06824 /* Main.storyboard */; };
+		A30D2F3A30227F1C00C06824 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A30D2F3930227F1C00C06824 /* Assets.xcassets */; };
+		A30D2F4130227F1C00C06824 /* UWorld2Anki Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = A30D2F4030227F1C00C06824 /* UWorld2Anki Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A30D2F4630227F1C00C06824 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30D2F4530227F1C00C06824 /* SafariWebExtensionHandler.swift */; };
+		A30D2F5730227F1D00C06824 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = A30D2F5230227F1D00C06824 /* popup.js */; };
+		A30D2F5830227F1D00C06824 /* images in Resources */ = {isa = PBXBuildFile; fileRef = A30D2F5330227F1D00C06824 /* images */; };
+		A30D2F5930227F1D00C06824 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = A30D2F5430227F1D00C06824 /* popup.html */; };
+		A30D2F5A30227F1D00C06824 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = A30D2F5530227F1D00C06824 /* manifest.json */; };
+		A30D2F5B30227F1D00C06824 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = A30D2F5630227F1D00C06824 /* popup.css */; };
+		A30D2F6230227F1D00C06824 /* scraper.js in Resources */ = {isa = PBXBuildFile; fileRef = A30D2F6130227F1D00C06824 /* scraper.js */; };
+		A30D2F6430227F1D00C06824 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = A30D2F6330227F1D00C06824 /* background.js */; };
+		A30D2F6630227F1D00C06824 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = A30D2F6530227F1D00C06824 /* content.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A30D2F4230227F1C00C06824 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A30D2F1D30227F1A00C06824 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A30D2F3F30227F1C00C06824;
+			remoteInfo = "UWorld2Anki Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A30D2F4D30227F1C00C06824 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A30D2F4130227F1C00C06824 /* UWorld2Anki Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A30D2F2530227F1A00C06824 /* UWorld2Anki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UWorld2Anki.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A30D2F2830227F1A00C06824 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A30D2F2C30227F1A00C06824 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/Main.html; sourceTree = "<group>"; };
+		A30D2F2E30227F1A00C06824 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		A30D2F3030227F1A00C06824 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		A30D2F3230227F1A00C06824 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		A30D2F3430227F1A00C06824 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A30D2F3730227F1A00C06824 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A30D2F3930227F1C00C06824 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A30D2F3B30227F1C00C06824 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A30D2F4030227F1C00C06824 /* UWorld2Anki Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "UWorld2Anki Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A30D2F4530227F1C00C06824 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		A30D2F4730227F1C00C06824 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A30D2F5230227F1D00C06824 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = popup.js; path = Resources/popup.js; sourceTree = "<group>"; };
+		A30D2F5330227F1D00C06824 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = images; path = Resources/images; sourceTree = "<group>"; };
+		A30D2F5430227F1D00C06824 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = popup.html; path = Resources/popup.html; sourceTree = "<group>"; };
+		A30D2F5530227F1D00C06824 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = Resources/manifest.json; sourceTree = "<group>"; };
+		A30D2F5630227F1D00C06824 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = popup.css; path = Resources/popup.css; sourceTree = "<group>"; };
+		A30D2F6130227F1D00C06824 /* scraper.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = scraper.js; path = Resources/scraper.js; sourceTree = "<group>"; };
+		A30D2F6330227F1D00C06824 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = background.js; path = Resources/background.js; sourceTree = "<group>"; };
+		A30D2F6530227F1D00C06824 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = content.js; path = Resources/content.js; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A30D2F2230227F1A00C06824 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A30D2F3D30227F1C00C06824 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A30D2F1C30227F1A00C06824 = {
+			isa = PBXGroup;
+			children = (
+				A30D2F2730227F1A00C06824 /* UWorld2Anki */,
+				A30D2F4430227F1C00C06824 /* UWorld2Anki Extension */,
+				A30D2F2630227F1A00C06824 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A30D2F2630227F1A00C06824 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A30D2F2530227F1A00C06824 /* UWorld2Anki.app */,
+				A30D2F4030227F1C00C06824 /* UWorld2Anki Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A30D2F2730227F1A00C06824 /* UWorld2Anki */ = {
+			isa = PBXGroup;
+			children = (
+				A30D2F2830227F1A00C06824 /* AppDelegate.swift */,
+				A30D2F3430227F1A00C06824 /* ViewController.swift */,
+				A30D2F3630227F1A00C06824 /* Main.storyboard */,
+				A30D2F3930227F1C00C06824 /* Assets.xcassets */,
+				A30D2F3B30227F1C00C06824 /* Info.plist */,
+				A30D2F2A30227F1A00C06824 /* Resources */,
+			);
+			path = UWorld2Anki;
+			sourceTree = "<group>";
+		};
+		A30D2F2A30227F1A00C06824 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A30D2F2B30227F1A00C06824 /* Main.html */,
+				A30D2F2E30227F1A00C06824 /* Icon.png */,
+				A30D2F3030227F1A00C06824 /* Style.css */,
+				A30D2F3230227F1A00C06824 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A30D2F4430227F1C00C06824 /* UWorld2Anki Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A30D2F5130227F1D00C06824 /* Resources */,
+				A30D2F4530227F1C00C06824 /* SafariWebExtensionHandler.swift */,
+				A30D2F4730227F1C00C06824 /* Info.plist */,
+			);
+			path = "UWorld2Anki Extension";
+			sourceTree = "<group>";
+		};
+		A30D2F5130227F1D00C06824 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A30D2F5230227F1D00C06824 /* popup.js */,
+				A30D2F6530227F1D00C06824 /* content.js */,
+				A30D2F6330227F1D00C06824 /* background.js */,
+				A30D2F6130227F1D00C06824 /* scraper.js */,
+				A30D2F5330227F1D00C06824 /* images */,
+				A30D2F5430227F1D00C06824 /* popup.html */,
+				A30D2F5530227F1D00C06824 /* manifest.json */,
+				A30D2F5630227F1D00C06824 /* popup.css */,
+			);
+			name = Resources;
+			path = "UWorld2Anki Extension";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A30D2F2430227F1A00C06824 /* UWorld2Anki */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A30D2F4E30227F1C00C06824 /* Build configuration list for PBXNativeTarget "UWorld2Anki" */;
+			buildPhases = (
+				A30D2F2130227F1A00C06824 /* Sources */,
+				A30D2F2230227F1A00C06824 /* Frameworks */,
+				A30D2F2330227F1A00C06824 /* Resources */,
+				A30D2F4D30227F1C00C06824 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A30D2F4330227F1C00C06824 /* PBXTargetDependency */,
+			);
+			name = UWorld2Anki;
+			packageProductDependencies = (
+			);
+			productName = UWorld2Anki;
+			productReference = A30D2F2530227F1A00C06824 /* UWorld2Anki.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A30D2F3F30227F1C00C06824 /* UWorld2Anki Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A30D2F4A30227F1C00C06824 /* Build configuration list for PBXNativeTarget "UWorld2Anki Extension" */;
+			buildPhases = (
+				A30D2F3C30227F1C00C06824 /* Sources */,
+				A30D2F3D30227F1C00C06824 /* Frameworks */,
+				A30D2F3E30227F1C00C06824 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UWorld2Anki Extension";
+			packageProductDependencies = (
+			);
+			productName = "UWorld2Anki Extension";
+			productReference = A30D2F4030227F1C00C06824 /* UWorld2Anki Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A30D2F1D30227F1A00C06824 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2660;
+				LastUpgradeCheck = 2660;
+				TargetAttributes = {
+					A30D2F2430227F1A00C06824 = {
+						CreatedOnToolsVersion = 26.6;
+					};
+					A30D2F3F30227F1C00C06824 = {
+						CreatedOnToolsVersion = 26.6;
+					};
+				};
+			};
+			buildConfigurationList = A30D2F2030227F1A00C06824 /* Build configuration list for PBXProject "UWorld2Anki" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A30D2F1C30227F1A00C06824;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A30D2F2630227F1A00C06824 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A30D2F2430227F1A00C06824 /* UWorld2Anki */,
+				A30D2F3F30227F1C00C06824 /* UWorld2Anki Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A30D2F2330227F1A00C06824 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A30D2F2F30227F1A00C06824 /* Icon.png in Resources */,
+				A30D2F3830227F1A00C06824 /* Main.storyboard in Resources */,
+				A30D2F3330227F1A00C06824 /* Script.js in Resources */,
+				A30D2F2D30227F1A00C06824 /* Main.html in Resources */,
+				A30D2F3A30227F1C00C06824 /* Assets.xcassets in Resources */,
+				A30D2F3130227F1A00C06824 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A30D2F3E30227F1C00C06824 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A30D2F5B30227F1D00C06824 /* popup.css in Resources */,
+				A30D2F5A30227F1D00C06824 /* manifest.json in Resources */,
+				A30D2F5830227F1D00C06824 /* images in Resources */,
+				A30D2F5930227F1D00C06824 /* popup.html in Resources */,
+				A30D2F5730227F1D00C06824 /* popup.js in Resources */,
+				A30D2F6630227F1D00C06824 /* content.js in Resources */,
+				A30D2F6430227F1D00C06824 /* background.js in Resources */,
+				A30D2F6230227F1D00C06824 /* scraper.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A30D2F2130227F1A00C06824 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A30D2F3530227F1A00C06824 /* ViewController.swift in Sources */,
+				A30D2F2930227F1A00C06824 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A30D2F3C30227F1C00C06824 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A30D2F4630227F1C00C06824 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A30D2F4330227F1C00C06824 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A30D2F3F30227F1C00C06824 /* UWorld2Anki Extension */;
+			targetProxy = A30D2F4230227F1C00C06824 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A30D2F2B30227F1A00C06824 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A30D2F2C30227F1A00C06824 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		A30D2F3630227F1A00C06824 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A30D2F3730227F1A00C06824 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A30D2F4830227F1C00C06824 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A30D2F4930227F1C00C06824 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		A30D2F4B30227F1C00C06824 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2878AH8NC2;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "UWorld2Anki Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "UWorld2Anki Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.getrounds.roundswebtools.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A30D2F4C30227F1C00C06824 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2878AH8NC2;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "UWorld2Anki Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "UWorld2Anki Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.getrounds.roundswebtools.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A30D2F4F30227F1C00C06824 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2878AH8NC2;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UWorld2Anki/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = UWorld2Anki;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.getrounds.roundswebtools;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A30D2F5030227F1C00C06824 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2878AH8NC2;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UWorld2Anki/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = UWorld2Anki;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.getrounds.roundswebtools;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A30D2F2030227F1A00C06824 /* Build configuration list for PBXProject "UWorld2Anki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A30D2F4830227F1C00C06824 /* Debug */,
+				A30D2F4930227F1C00C06824 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A30D2F4A30227F1C00C06824 /* Build configuration list for PBXNativeTarget "UWorld2Anki Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A30D2F4B30227F1C00C06824 /* Debug */,
+				A30D2F4C30227F1C00C06824 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A30D2F4E30227F1C00C06824 /* Build configuration list for PBXNativeTarget "UWorld2Anki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A30D2F4F30227F1C00C06824 /* Debug */,
+				A30D2F5030227F1C00C06824 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A30D2F1D30227F1A00C06824 /* Project object */;
+}

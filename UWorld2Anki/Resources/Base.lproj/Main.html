@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="../Style.css">
+    <script src="../Script.js" defer></script>
+</head>
+<body>
+
+<header class="hero">
+    <img class="mark" src="../Icon.png" width="64" height="64" alt="">
+    <h1>UWorld<span class="sep">→</span>Anki</h1>
+    <p class="kicker">A free study tool from <span class="brand">Rounds</span></p>
+</header>
+
+<main>
+    <!-- Live status, driven from ViewController via show(). -->
+    <div class="status">
+        <p class="state-unknown"><span class="dot dot-idle"></span>Checking whether the extension is turned on…</p>
+        <p class="state-on"><span class="dot dot-on"></span><strong>Extension is on.</strong> Step&nbsp;1 is done.</p>
+        <p class="state-off"><span class="dot dot-off"></span><strong>Extension is off.</strong> Turn it on in step&nbsp;1.</p>
+    </div>
+
+    <ol class="steps">
+        <li>
+            <h2>Turn on the extension in Safari</h2>
+            <p>Safari keeps new extensions switched off until you allow them. When the settings
+               window opens, tick <b>UWorld2Anki</b>.</p>
+            <button class="primary open-preferences">Quit and Open Safari Settings…</button>
+            <p class="hint">This quits the app — that's expected, and Safari needs it to pick up
+               the extension.</p>
+        </li>
+
+        <li>
+            <h2>Install the AnkiConnect add-on</h2>
+            <p>This is what lets Safari open cards in Anki. In Anki, choose
+               <b>Tools&nbsp;→ Add-ons&nbsp;→ Get Add-ons…</b> and paste this code:</p>
+            <div class="code-row">
+                <code>2055492159</code>
+                <button class="copy" data-copy="2055492159">Copy</button>
+            </div>
+            <p class="hint">Restart Anki afterwards. There is nothing else to configure — no
+               settings to edit and no permission prompt to accept.</p>
+        </li>
+
+        <li>
+            <h2>Keep Anki open while you study</h2>
+            <p>The extension talks to Anki on your own Mac, so Anki has to be running. Your
+               questions and cards never leave your computer.</p>
+        </li>
+    </ol>
+
+    <section>
+        <h2>Using it</h2>
+        <p>Open a finished UWorld test's <b>results</b> page — the table listing every question
+           with its ID, subject and system. A <b>Find in Anki</b> button appears in the bottom
+           corner showing how many you missed. Click it, and Anki opens with exactly those cards.</p>
+        <p>The toolbar button does the same, and also lists the question IDs and lets you change
+           how they are matched to your cards.</p>
+    </section>
+
+    <section>
+        <h2>If something doesn't work</h2>
+        <dl>
+            <dt>No button on the UWorld page</dt>
+            <dd>Reload the tab. Check you're on the results table, not the dashboard or a single
+                question.</dd>
+
+            <dt>“Anki refused the connection”</dt>
+            <dd>Anki isn't running, or AnkiConnect isn't installed yet — see step 2.</dd>
+
+            <dt>Anki opens but finds no cards</dt>
+            <dd>Your deck tags questions differently. Open the toolbar button and choose another
+                search pattern.</dd>
+        </dl>
+    </section>
+</main>
+
+<footer>
+    <a href="https://www.getrounds.app/">Rounds — Master Step 1. Think Like a Clinician.</a>
+</footer>
+
+</body>
+</html>

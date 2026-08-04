@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>UWorld2Anki</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <header class="bar">
+    <h1>UWorld<span class="arrow">→</span>Anki <span class="by">by <b>Rounds</b></span></h1>
+    <button id="rescan" class="ghost" title="Re-scan the page">Rescan</button>
+  </header>
+
+  <div id="status" class="status">Scanning the results table…</div>
+
+  <section id="results" class="results" hidden>
+    <div class="stats">
+      <span class="pill pill-wrong"><b id="count-incorrect">0</b> incorrect</span>
+      <span class="pill"><b id="count-correct">0</b> correct</span>
+      <span class="pill"><b id="count-total">0</b> total</span>
+    </div>
+
+    <div id="paginator-note" class="note" hidden></div>
+
+    <ul id="id-list" class="id-list"></ul>
+
+    <label class="field">
+      <span>Anki search pattern</span>
+      <select id="pattern">
+        <option value="tag:*::{id}">tag:*::{id}  — ID at the end of a tag (recommended)</option>
+        <option value="tag:#AK_Step*::#UWorld::*::{id}">tag:#AK_Step*::#UWorld::*::{id}  — AnKing, any version</option>
+        <option value="tag:*{id}*">tag:*{id}*  — ID anywhere in a tag (over-matches)</option>
+        <option value="&quot;UWorldQID:{id}&quot;">"UWorldQID:{id}"  — dedicated field</option>
+      </select>
+    </label>
+
+    <div class="query-wrap">
+      <code id="query" class="query"></code>
+    </div>
+
+    <div class="actions">
+      <button id="find-anki" class="primary wide">Find Cards in Anki</button>
+    </div>
+    <div class="actions">
+      <button id="copy-ids">Copy IDs</button>
+      <button id="copy-query">Copy Anki search</button>
+    </div>
+    <p id="toast" class="toast" hidden></p>
+  </section>
+
+  <section id="empty" class="empty" hidden>
+    <p id="empty-msg"></p>
+  </section>
+
+  <script src="popup.js"></script>
+</body>
+</html>

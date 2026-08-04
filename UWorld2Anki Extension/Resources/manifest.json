@@ -1,0 +1,50 @@
+{
+  "manifest_version": 3,
+  "name": "UWorld2Anki by Rounds",
+  "version": "1.0",
+  "description": "Finds every UWorld question you got wrong and opens those cards in Anki. A free tool by Rounds.",
+
+  "icons": {
+    "48": "images/icon-48.png",
+    "96": "images/icon-96.png",
+    "128": "images/icon-128.png",
+    "256": "images/icon-256.png",
+    "512": "images/icon-512.png"
+  },
+
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "UWorld2Anki",
+    "default_icon": {
+      "48": "images/icon-48.png",
+      "96": "images/icon-96.png",
+      "128": "images/icon-128.png",
+      "256": "images/icon-256.png",
+      "512": "images/icon-512.png"
+    }
+  },
+
+  "background": {
+    "service_worker": "background.js"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.uworld.com/*"],
+      "js": ["scraper.js", "content.js"],
+      "run_at": "document_idle",
+      "all_frames": false
+    }
+  ],
+
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage"
+  ],
+
+  "host_permissions": [
+    "*://*.uworld.com/*",
+    "http://127.0.0.1:8765/*"
+  ]
+}
